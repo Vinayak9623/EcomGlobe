@@ -10,7 +10,7 @@ public class EcomGlobeApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(EcomGlobeApplication.class, args);
 
-		System.out.println("Welcome to EcomGlobe");
+		System.out.println("Welcome to EcomGlobe Application");
 	}
 
 }
