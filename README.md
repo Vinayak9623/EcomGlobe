@@ -1,9 +1,9 @@
 # EcomGlobe
 
 ## Overview
-## EcomGlobe is Spring Boot base Ecommerce platform where user can browse product, place order and manage categories and JWT Authentication for security .
+* EcomGlobe is Spring Boot base Ecommerce platform where user can browse product, place order and manage categories and JWT Authentication for security .
 
-##Features
+## Features
 -User Registration and Login with JWT Authentication.
 -Role-Based Access Control (Admin & User roles).
 -CRUD Operation for Categories,Product and Order.
@@ -31,28 +31,28 @@
 -Order & Product: Many-To-One
 -Product & Category: Many-To-One
 
-#API Endpoints
+# API Endpoints
 
-Authentication:
+## Authentication:
 -POST/auth/register
 -POST/auth/login
 
-Categories:
+## Categories:
 -POST/category/create
 -GET/category/get
 -PUT/category/{id}
 -DELETE/category/{id}
 
-Products:
+## Products:
 -POST/product/create
 -GET/product/get
 -PUT/product/update/{id}
 -DELETE/product/{id}
 
-Orders:
--POST/order/create
--GET/order/get
--PUT/order/update/{id}
+## Orders:
+-POST/order/create  
+-GET/order/get  
+-PUT/order/update/{id}  
 -DELETE/order/delete/{id}
 
-# Access API via PostMan
+### Access API via PostMan
